@@ -1,4 +1,3 @@
-const { generateText } = require('../src/index')
 const { neo } = require('../src/index')
 
 test('Basic example', () => {
