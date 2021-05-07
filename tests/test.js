@@ -77,7 +77,7 @@ test('Complex', () => {
         '000.']
     const nodes = neo(4, 4, board)
     expect(nodes[0]).toBe('0 0 1 0 0 1')
-    expect(nodes[1]).toBe('1 0 3 0 0 2')
+    expect(nodes[1]).toBe('1 0 3 0 1 2')
     expect(nodes[2]).toBe('3 0 -1 -1 3 1')
     expect(nodes[3]).toBe('0 1 2 1 0 3')
     expect(nodes[4]).toBe('2 1 3 1 2 3')
